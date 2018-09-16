@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="reportCell" rowHeight="29" id="Q5o-Cj-IDV" customClass="reportCell" customModule="Mind" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="503" height="29"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Q5o-Cj-IDV" id="XZi-f0-ozo">
+                <rect key="frame" x="0.0" y="0.0" width="503" height="28.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="تاريخ" textAlignment="right" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Bf5-ca-8Ks">
+                        <rect key="frame" x="425.5" y="3" width="75.5" height="23"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="اسم الصنف" textAlignment="right" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="6n0-JE-nBU">
+                        <rect key="frame" x="273.5" y="3" width="151" height="22.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="الكمية" textAlignment="right" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="ItY-25-oPc">
+                        <rect key="frame" x="217" y="3" width="55.5" height="22.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="السعر" textAlignment="right" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="hyJ-bi-0kJ">
+                        <rect key="frame" x="160.5" y="3" width="55.5" height="22.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="النهائي" textAlignment="right" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="aMF-qr-mHY">
+                        <rect key="frame" x="109" y="3" width="50.5" height="22.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="الربح" textAlignment="right" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="sp6-JB-axY">
+                        <rect key="frame" x="56.5" y="1" width="53" height="22.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="الربح" textAlignment="right" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="lYU-uo-ESM">
+                        <rect key="frame" x="2.5" y="3" width="53" height="22.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="sp6-JB-axY" firstAttribute="height" secondItem="aMF-qr-mHY" secondAttribute="height" id="0RL-PO-a2v"/>
+                    <constraint firstItem="6n0-JE-nBU" firstAttribute="top" secondItem="Bf5-ca-8Ks" secondAttribute="top" id="17X-5z-27Z"/>
+                    <constraint firstItem="hyJ-bi-0kJ" firstAttribute="width" secondItem="XZi-f0-ozo" secondAttribute="width" multiplier="0.11" id="2Hg-wn-T4M"/>
+                    <constraint firstItem="lYU-uo-ESM" firstAttribute="height" secondItem="sp6-JB-axY" secondAttribute="height" id="6JD-bq-nVK"/>
+                    <constraint firstItem="ItY-25-oPc" firstAttribute="leading" secondItem="hyJ-bi-0kJ" secondAttribute="trailing" constant="1" id="9JA-rd-63j"/>
+                    <constraint firstItem="lYU-uo-ESM" firstAttribute="centerY" secondItem="sp6-JB-axY" secondAttribute="centerY" constant="2" id="A4C-gE-80j"/>
+                    <constraint firstItem="6n0-JE-nBU" firstAttribute="leading" secondItem="ItY-25-oPc" secondAttribute="trailing" constant="1" id="BOf-Jp-Lh1"/>
+                    <constraint firstItem="hyJ-bi-0kJ" firstAttribute="leading" secondItem="aMF-qr-mHY" secondAttribute="trailing" constant="1" id="Bq7-sw-Rkp"/>
+                    <constraint firstItem="sp6-JB-axY" firstAttribute="bottom" secondItem="aMF-qr-mHY" secondAttribute="bottom" constant="-2" id="F1i-rz-UKH"/>
+                    <constraint firstItem="ItY-25-oPc" firstAttribute="width" secondItem="XZi-f0-ozo" secondAttribute="width" multiplier="0.11" id="Fb9-cV-TU9"/>
+                    <constraint firstItem="sp6-JB-axY" firstAttribute="leading" secondItem="lYU-uo-ESM" secondAttribute="trailing" constant="1" id="Gkw-FT-aGw"/>
+                    <constraint firstItem="hyJ-bi-0kJ" firstAttribute="top" secondItem="ItY-25-oPc" secondAttribute="top" id="ImX-iX-fk3"/>
+                    <constraint firstItem="Bf5-ca-8Ks" firstAttribute="height" secondItem="XZi-f0-ozo" secondAttribute="height" multiplier="0.8" id="Iry-SQ-z28"/>
+                    <constraint firstItem="6n0-JE-nBU" firstAttribute="height" secondItem="Bf5-ca-8Ks" secondAttribute="height" id="J2l-jQ-R8O"/>
+                    <constraint firstAttribute="trailing" secondItem="Bf5-ca-8Ks" secondAttribute="trailing" constant="2" id="L7c-SD-F7v"/>
+                    <constraint firstItem="aMF-qr-mHY" firstAttribute="leading" secondItem="sp6-JB-axY" secondAttribute="trailing" id="MeP-3T-GJE"/>
+                    <constraint firstItem="hyJ-bi-0kJ" firstAttribute="bottom" secondItem="ItY-25-oPc" secondAttribute="bottom" id="Mf8-GH-tj9"/>
+                    <constraint firstItem="ItY-25-oPc" firstAttribute="top" secondItem="6n0-JE-nBU" secondAttribute="top" id="Re7-oe-IIJ"/>
+                    <constraint firstItem="lYU-uo-ESM" firstAttribute="width" secondItem="sp6-JB-axY" secondAttribute="width" id="XqO-YL-xqJ"/>
+                    <constraint firstItem="aMF-qr-mHY" firstAttribute="width" secondItem="XZi-f0-ozo" secondAttribute="width" multiplier="0.1" id="dcN-W8-wWt"/>
+                    <constraint firstItem="ItY-25-oPc" firstAttribute="bottom" secondItem="6n0-JE-nBU" secondAttribute="bottom" id="dew-bY-Qgi"/>
+                    <constraint firstItem="sp6-JB-axY" firstAttribute="top" secondItem="aMF-qr-mHY" secondAttribute="top" constant="-2" id="e3V-wk-UWM"/>
+                    <constraint firstItem="6n0-JE-nBU" firstAttribute="bottom" secondItem="Bf5-ca-8Ks" secondAttribute="bottom" id="gvj-8t-xJh"/>
+                    <constraint firstItem="Bf5-ca-8Ks" firstAttribute="width" secondItem="XZi-f0-ozo" secondAttribute="width" multiplier="0.15" id="huw-Wm-8u0"/>
+                    <constraint firstItem="Bf5-ca-8Ks" firstAttribute="leading" secondItem="6n0-JE-nBU" secondAttribute="trailing" constant="1" id="joQ-2S-V3K"/>
+                    <constraint firstItem="aMF-qr-mHY" firstAttribute="top" secondItem="hyJ-bi-0kJ" secondAttribute="top" id="kfm-nz-otq"/>
+                    <constraint firstItem="aMF-qr-mHY" firstAttribute="bottom" secondItem="hyJ-bi-0kJ" secondAttribute="bottom" id="m7D-AO-R1h"/>
+                    <constraint firstItem="sp6-JB-axY" firstAttribute="width" secondItem="XZi-f0-ozo" secondAttribute="width" multiplier="0.105" id="qFG-jJ-t7d"/>
+                    <constraint firstItem="aMF-qr-mHY" firstAttribute="height" secondItem="hyJ-bi-0kJ" secondAttribute="height" id="r08-4n-j5r"/>
+                    <constraint firstItem="Bf5-ca-8Ks" firstAttribute="centerY" secondItem="XZi-f0-ozo" secondAttribute="centerY" id="sum-MT-bpV"/>
+                    <constraint firstItem="hyJ-bi-0kJ" firstAttribute="height" secondItem="ItY-25-oPc" secondAttribute="height" id="t7U-Lw-2PW"/>
+                    <constraint firstItem="ItY-25-oPc" firstAttribute="height" secondItem="6n0-JE-nBU" secondAttribute="height" id="wKX-lm-SPt"/>
+                    <constraint firstItem="6n0-JE-nBU" firstAttribute="width" secondItem="XZi-f0-ozo" secondAttribute="width" multiplier="0.3" id="xkV-47-W2L"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="PRY-IN-gy9"/>
+            <connections>
+                <outlet property="lblFinal" destination="sp6-JB-axY" id="DU5-Qq-Yab"/>
+                <outlet property="lblMovingDate" destination="Bf5-ca-8Ks" id="IBw-kP-U7e"/>
+                <outlet property="lblNameCategory" destination="6n0-JE-nBU" id="xpd-Tb-Jg8"/>
+                <outlet property="lblPrice" destination="aMF-qr-mHY" id="2ag-cq-cub"/>
+                <outlet property="lblProfit" destination="lYU-uo-ESM" id="9Sx-28-Eve"/>
+                <outlet property="lblQuntty" destination="hyJ-bi-0kJ" id="PcW-WO-T9q"/>
+                <outlet property="lblUnit" destination="ItY-25-oPc" id="TcT-4I-GfK"/>
+            </connections>
+            <point key="canvasLocation" x="175.5" y="42.5"/>
+        </tableViewCell>
+    </objects>
+</document>

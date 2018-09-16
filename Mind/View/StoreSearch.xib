@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" restorationIdentifier="StoreSearch" selectionStyle="default" indentationWidth="10" reuseIdentifier="StoreSearch" rowHeight="29" id="sOb-k7-Wfg" customClass="StoreSearch" customModule="Mind" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="750" height="29"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="sOb-k7-Wfg" id="SZX-qI-td5">
+                <rect key="frame" x="0.0" y="0.0" width="750" height="28.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="اسم الصنف" textAlignment="right" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="mFU-Ce-Egd">
+                        <rect key="frame" x="524.5" y="3" width="225" height="22.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="اقل كمية" textAlignment="right" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="clb-J5-J43">
+                        <rect key="frame" x="367.5" y="3" width="67.5" height="22.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="المتاح" textAlignment="right" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="qim-qy-8Qf">
+                        <rect key="frame" x="307.5" y="3" width="60" height="22.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="اجمالي الشراء" textAlignment="right" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Yn5-Qb-yH0">
+                        <rect key="frame" x="233" y="3" width="75" height="22.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="اجمالي البيع" textAlignment="right" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="oMU-OF-0WA">
+                        <rect key="frame" x="150.5" y="3" width="82.5" height="22.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="اسم المخزن" textAlignment="right" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="tF6-4G-Bgy">
+                        <rect key="frame" x="1" y="1" width="75" height="22.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="تاديخ الصلاحية" textAlignment="right" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="v7d-Nm-ePm">
+                        <rect key="frame" x="76" y="3" width="75" height="22.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="التصنيف" textAlignment="right" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="b8G-5C-tlx">
+                        <rect key="frame" x="435" y="3" width="90" height="22.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="qim-qy-8Qf" firstAttribute="leading" secondItem="Yn5-Qb-yH0" secondAttribute="trailing" id="005-x8-olj"/>
+                    <constraint firstItem="oMU-OF-0WA" firstAttribute="width" secondItem="SZX-qI-td5" secondAttribute="width" multiplier="0.11" id="1aK-Mm-7av"/>
+                    <constraint firstItem="qim-qy-8Qf" firstAttribute="height" secondItem="clb-J5-J43" secondAttribute="height" id="4Hh-qD-M2U"/>
+                    <constraint firstItem="b8G-5C-tlx" firstAttribute="height" secondItem="mFU-Ce-Egd" secondAttribute="height" id="4lW-Kb-5IQ"/>
+                    <constraint firstItem="mFU-Ce-Egd" firstAttribute="leading" secondItem="b8G-5C-tlx" secondAttribute="trailing" id="55h-yk-VdR"/>
+                    <constraint firstItem="qim-qy-8Qf" firstAttribute="width" secondItem="SZX-qI-td5" secondAttribute="width" multiplier="0.08" id="5bA-ow-fcT"/>
+                    <constraint firstItem="clb-J5-J43" firstAttribute="leading" secondItem="qim-qy-8Qf" secondAttribute="trailing" id="7xd-EK-PHN"/>
+                    <constraint firstItem="mFU-Ce-Egd" firstAttribute="centerY" secondItem="SZX-qI-td5" secondAttribute="centerY" id="A07-ye-T2O"/>
+                    <constraint firstItem="v7d-Nm-ePm" firstAttribute="leading" secondItem="tF6-4G-Bgy" secondAttribute="trailing" id="C5f-IX-0Cc"/>
+                    <constraint firstItem="oMU-OF-0WA" firstAttribute="height" secondItem="Yn5-Qb-yH0" secondAttribute="height" id="Cq5-rD-X1y"/>
+                    <constraint firstItem="b8G-5C-tlx" firstAttribute="leading" secondItem="clb-J5-J43" secondAttribute="trailing" id="D18-1j-n7Y"/>
+                    <constraint firstItem="qim-qy-8Qf" firstAttribute="bottom" secondItem="clb-J5-J43" secondAttribute="bottom" id="EXc-07-aG6"/>
+                    <constraint firstItem="Yn5-Qb-yH0" firstAttribute="bottom" secondItem="qim-qy-8Qf" secondAttribute="bottom" id="Fsd-pb-FQh"/>
+                    <constraint firstItem="tF6-4G-Bgy" firstAttribute="bottom" secondItem="v7d-Nm-ePm" secondAttribute="bottom" constant="-2" id="GHS-ip-1NC"/>
+                    <constraint firstItem="clb-J5-J43" firstAttribute="height" secondItem="b8G-5C-tlx" secondAttribute="height" id="MGb-n6-iZu"/>
+                    <constraint firstItem="mFU-Ce-Egd" firstAttribute="height" secondItem="SZX-qI-td5" secondAttribute="height" multiplier="0.8" id="N9Z-4r-0EK"/>
+                    <constraint firstItem="Yn5-Qb-yH0" firstAttribute="top" secondItem="qim-qy-8Qf" secondAttribute="top" id="NGs-Kt-UJ4"/>
+                    <constraint firstItem="clb-J5-J43" firstAttribute="top" secondItem="b8G-5C-tlx" secondAttribute="top" id="OLy-Qf-UfC"/>
+                    <constraint firstItem="v7d-Nm-ePm" firstAttribute="height" secondItem="oMU-OF-0WA" secondAttribute="height" id="Prw-LF-LGM"/>
+                    <constraint firstItem="Yn5-Qb-yH0" firstAttribute="leading" secondItem="oMU-OF-0WA" secondAttribute="trailing" id="S9F-4l-zlQ"/>
+                    <constraint firstItem="oMU-OF-0WA" firstAttribute="top" secondItem="Yn5-Qb-yH0" secondAttribute="top" id="SAQ-5f-EzJ"/>
+                    <constraint firstItem="mFU-Ce-Egd" firstAttribute="width" secondItem="SZX-qI-td5" secondAttribute="width" multiplier="0.3" id="VuR-Ol-6Ul"/>
+                    <constraint firstItem="v7d-Nm-ePm" firstAttribute="width" secondItem="SZX-qI-td5" secondAttribute="width" multiplier="0.1" id="ckT-0u-WPS"/>
+                    <constraint firstItem="oMU-OF-0WA" firstAttribute="leading" secondItem="v7d-Nm-ePm" secondAttribute="trailing" id="eOK-nA-T1z"/>
+                    <constraint firstItem="clb-J5-J43" firstAttribute="bottom" secondItem="b8G-5C-tlx" secondAttribute="bottom" id="efR-a3-vo0"/>
+                    <constraint firstItem="tF6-4G-Bgy" firstAttribute="top" secondItem="v7d-Nm-ePm" secondAttribute="top" constant="-2" id="fO9-T7-ILz"/>
+                    <constraint firstItem="oMU-OF-0WA" firstAttribute="bottom" secondItem="Yn5-Qb-yH0" secondAttribute="bottom" id="gmy-SZ-20q"/>
+                    <constraint firstItem="clb-J5-J43" firstAttribute="width" secondItem="SZX-qI-td5" secondAttribute="width" multiplier="0.09" id="hpG-0D-o4K"/>
+                    <constraint firstAttribute="trailing" secondItem="mFU-Ce-Egd" secondAttribute="trailing" id="inM-HJ-KUs"/>
+                    <constraint firstItem="tF6-4G-Bgy" firstAttribute="height" secondItem="v7d-Nm-ePm" secondAttribute="height" id="jfH-tb-ULn"/>
+                    <constraint firstItem="b8G-5C-tlx" firstAttribute="bottom" secondItem="mFU-Ce-Egd" secondAttribute="bottom" id="kSD-8g-d7N"/>
+                    <constraint firstItem="Yn5-Qb-yH0" firstAttribute="height" secondItem="qim-qy-8Qf" secondAttribute="height" id="oDd-CF-jGB"/>
+                    <constraint firstItem="Yn5-Qb-yH0" firstAttribute="width" secondItem="SZX-qI-td5" secondAttribute="width" multiplier="0.1" id="oYo-xh-G8q"/>
+                    <constraint firstItem="b8G-5C-tlx" firstAttribute="top" secondItem="mFU-Ce-Egd" secondAttribute="top" id="pF8-8X-0Gt"/>
+                    <constraint firstItem="qim-qy-8Qf" firstAttribute="top" secondItem="clb-J5-J43" secondAttribute="top" id="tel-FF-5n1"/>
+                    <constraint firstItem="b8G-5C-tlx" firstAttribute="width" secondItem="SZX-qI-td5" secondAttribute="width" multiplier="0.12" id="wT6-DU-Kao"/>
+                    <constraint firstItem="v7d-Nm-ePm" firstAttribute="top" secondItem="oMU-OF-0WA" secondAttribute="top" id="wlu-n6-YNm"/>
+                    <constraint firstItem="tF6-4G-Bgy" firstAttribute="width" secondItem="SZX-qI-td5" secondAttribute="width" multiplier="0.1" id="ySB-Xb-kZq"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="lw2-vs-yGN"/>
+            <connections>
+                <outlet property="lblAvailable" destination="qim-qy-8Qf" id="2ap-8c-o3F"/>
+                <outlet property="lblBuysTotal" destination="Yn5-Qb-yH0" id="GkW-9E-Zu7"/>
+                <outlet property="lblExpirationDate" destination="v7d-Nm-ePm" id="xOv-hz-0D4"/>
+                <outlet property="lblLowestQntity" destination="clb-J5-J43" id="ChL-yK-OQy"/>
+                <outlet property="lblSalesTotal" destination="oMU-OF-0WA" id="gNu-r5-VXi"/>
+                <outlet property="lblStoreName" destination="tF6-4G-Bgy" id="f8P-1D-kUT"/>
+                <outlet property="lblType" destination="b8G-5C-tlx" id="Bcf-ZF-Zgc"/>
+                <outlet property="lblTypeName" destination="mFU-Ce-Egd" id="Kcg-sx-RTa"/>
+            </connections>
+            <point key="canvasLocation" x="-219" y="-45"/>
+        </tableViewCell>
+    </objects>
+</document>
